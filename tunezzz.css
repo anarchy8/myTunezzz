@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Roboto&family=Space+Grotesk&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+body {
+  scroll-behavior: smooth;
+}
+/* -------------------NAVBAR BASLANGIC-------------------- */
+.main-header {
+  top: 0;
+  width: 100%;
+  background-color: #270082;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  position: fixed;
+}
+.nav-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.logo {
+  color: white;
+  cursor: pointer;
+}
+.links ul {
+  display: flex;
+  gap: 20px;
+}
+.bi-list {
+  color: white;
+  font-size: 40px;
+  display: none;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+/*-------------------------- SECTION KISMI BURADAAA--------------------*/
+.my-tunezz-section {
+  width: 100%;
+  height: 750px;
+  background: url(img/section-image.png) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-top: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.h-group-main {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 25px;
+  width: 55%;
+  margin-bottom: 150px;
+}
+.h-group-main h1 {
+  font-size: 75px;
+  color: white;
+}
+.h-group-main h3 {
+  font-size: 35px;
+  color: white;
+}
+.h-group-main h5 {
+  font-size: 15px;
+  color: white;
+}
+.music-section {
+  width: 100%;
+  height: 850px;
+  background-color: #281154;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.h-group-music {
+  color: white;
+  width: 55%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.h-group-music h1 {
+  font-size: 30px;
+}
+.h-group-music h3 {
+  font-size: 20px;
+}
+.music-section-btn {
+  padding: 10px;
+  width: 30%;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+.music-section-btn:hover {
+  color: white;
+  background-color: #270082;
+  cursor: pointer;
+}
+.music-section-img {
+  width: 50%;
+}
+.film-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  gap: 20px;
+}
+.h-group-film {
+  margin-top: 30px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 55%;
+}
+.film-section-btn {
+  width: 20%;
+  padding: 10px;
+  color: white;
+  background-color: #270082;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.film-section-btn:hover {
+  color: #270082;
+  background-color: white;
+}
+.film-section-img {
+  width: 50%;
+}
+.concert-div {
+  margin-top: 40px;
+  width: 100%;
+  background: url(img/konser.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.concert-div-text {
+  color: white;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.concert-div-text h1 {
+  font-size: 35px;
+}
+.giftcard-div-main {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+.giftcard-wrapper {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+.giftcard-img {
+  width: 34%;
+  height: 300px;
+}
+.giftcard-text-div {
+  color: black;
+  width: 65%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 20px;
+  font-size: 18px;
+  margin-left: 30px;
+}
+.giftcard-baslik {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+.buy-btn {
+  margin-left: 350px;
+  width: 10%;
+  padding: 8px;
+  background-color: #270082;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.buy-btn:hover {
+  color: black;
+  background-color: white;
+}
+/* -----------footer alanııııııııı-------------------------- */
+.footer-main {
+  width: 100%;
+  height: 230px;
+  background-color: #1b0058;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-links {
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.footer-links h4 {
+  border-bottom: 1px solid white;
+}
+.footer-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+.copyright {
+  margin-top: 50px;
+  color: white;
+}
+/*------------- responsive------------------- */
+@media only screen and (max-width: 400px) {
+  .links ul li {
+    display: none;
+  }
+  .bi-list {
+    display: inline;
+  }
+  .h-group-main {
+    margin-top: 100px;
+  }
+  .h-group-main h1 {
+    font-size: 60px;
+    color: white;
+  }
+  .h-group-main h5 {
+    font-size: 20px;
+  }
+  .h-group-music h1 {
+    font-size: 40px;
+  }
+  .h-group-music h3 {
+    font-size: 21px;
+  }
+  .h-group-music h4 {
+    font-size: 18px;
+  }
+  .music-section-btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+  }
+  .music-section-img {
+    width: 90%;
+  }
+  .film-section {
+    font-size: 18px;
+    gap: 30px;
+  }
+  .film-section-img {
+    width: 90%;
+  }
+  .film-section-btn {
+    width: 80%;
+    font-size: 20px;
+  }
+  .giftcard-div-main {
+    align-items: center;
+    width: 100%;
+  }
+  .giftcard-wrapper {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .giftcard-img {
+    display: none;
+  }
+  .buy-btn {
+    margin-left: 50px;
+    padding: 10px;
+    width: 50%;
+  }
+  .footer-main {
+    width: 100%;
+    height: 400px;
+  }
+  .footer-wrapper {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .footer-links {
+    width: 45%;
+  }
+}
